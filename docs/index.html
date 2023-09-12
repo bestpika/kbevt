@@ -48,6 +48,7 @@
           methods: {
             kbEvt: function (e) {
               e.preventDefault()
+              console.dir(e)
               for (k in e) {
                 switch (k) {
                   case 'altKey':
